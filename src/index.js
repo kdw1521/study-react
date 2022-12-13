@@ -9,6 +9,7 @@ import Time from './element/Time';
 import MovieList from './movies/MovieList';
 import TestComp from './lifecycle/TestComp';
 import CalculateComp from './hook/CalculateComp';
+import MyButton from './eventHandler/MyButton';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     {/* <Course /> */}
     {/* <MovieList /> */}
     {/* <TestComp /> */}
-    <CalculateComp />
+    {/* <CalculateComp /> */}
+    <MyButton />
   </React.StrictMode>
 );
 
