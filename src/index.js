@@ -11,6 +11,7 @@ import TestComp from './lifecycle/TestComp';
 import CalculateComp from './hook/CalculateComp';
 import MyButton from './eventHandler/MyButton';
 import Index from './header/Index';
+import MemberList from './list/MemberList';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,8 @@ root.render(
     {/* <TestComp /> */}
     {/* <CalculateComp /> */}
     {/* <MyButton /> */}
-    <Index />
+    {/* <Index /> */}
+    <MemberList />
   </React.StrictMode>
 );
 
