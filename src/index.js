@@ -12,6 +12,7 @@ import CalculateComp from './hook/CalculateComp';
 import MyButton from './eventHandler/MyButton';
 import Index from './header/Index';
 import MemberList from './list/MemberList';
+import LightDarkMode from './context/LightDarkMode';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +24,8 @@ root.render(
     {/* <CalculateComp /> */}
     {/* <MyButton /> */}
     {/* <Index /> */}
-    <MemberList />
+    {/* <MemberList /> */}
+    <LightDarkMode />
   </React.StrictMode>
 );
 
