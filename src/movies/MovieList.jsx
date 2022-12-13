@@ -20,7 +20,7 @@ function MovieList(props) {
             {
                 movies.map((movie) => {
                     return (
-                        <MovieCard title={movie.title}/>
+                        <MovieCard title={movie.title} key={movie.title} />
                     )
                 })
             }
