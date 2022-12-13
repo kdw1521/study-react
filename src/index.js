@@ -8,6 +8,7 @@ import Course from './jsx/Course';
 import Time from './element/Time';
 import MovieList from './movies/MovieList';
 import TestComp from './lifecycle/TestComp';
+import CalculateComp from './hook/CalculateComp';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     {/* <App /> */}
     {/* <Course /> */}
     {/* <MovieList /> */}
-    <TestComp />
+    {/* <TestComp /> */}
+    <CalculateComp />
   </React.StrictMode>
 );
 
